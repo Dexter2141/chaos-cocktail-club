@@ -1,0 +1,158 @@
+[
+  {
+    "name": "Espresso Martini",
+    "description": "A coffee-flavored cocktail with vodka and espresso.",
+    "ingredients": [
+      { "name": "Vodka", "quantity": 45, "unit": "ml" },
+      { "name": "Coffee liqueur", "quantity": 30, "unit": "ml" },
+      { "name": "Espresso", "quantity": 30, "unit": "ml" },
+      { "name": "Simple syrup", "quantity": 10, "unit": "ml" }
+    ],
+    "instructions": [
+      "Shake all ingredients with ice.",
+      "Strain into a chilled martini glass."
+    ],
+    "category": "Modern",
+    "imagePath": "/images/espresso_martini.jpg"
+  },
+  {
+    "name": "Gin Basil Smash",
+    "description": "A refreshing gin-based cocktail with basil and citrus.",
+    "ingredients": [
+      { "name": "Gin", "quantity": 60, "unit": "ml" },
+      { "name": "Fresh basil leaves", "quantity": 8, "unit": "leaves" },
+      { "name": "Lemon juice", "quantity": 30, "unit": "ml" },
+      { "name": "Simple syrup", "quantity": 15, "unit": "ml" }
+    ],
+    "instructions": [
+      "Muddle basil leaves and simple syrup in a shaker.",
+      "Add gin and lemon juice, shake with ice.",
+      "Double strain into a glass filled with ice."
+    ],
+    "category": "Modern",
+    "imagePath": "/images/gin_basil_smash.jpg"
+  },
+  {
+    "name": "Solero",
+    "description": "A fruity and tropical cocktail.",
+    "ingredients": [
+      { "name": "Vodka", "quantity": 50, "unit": "ml" },
+      { "name": "Passion fruit juice", "quantity": 100, "unit": "ml" },
+      { "name": "Orange juice", "quantity": 50, "unit": "ml" },
+      { "name": "Simple syrup", "quantity": 10, "unit": "ml" },
+      { "name": "Soda water", "quantity": 1, "unit": "splash" }
+    ],
+    "instructions": [
+      "Shake vodka, passion fruit juice, orange juice, and simple syrup with ice.",
+      "Strain into a glass filled with ice.",
+      "Top with a splash of soda water."
+    ],
+    "category": "Modern",
+    "imagePath": "/images/solero.jpg"
+  },
+  {
+    "name": "Caipirinha",
+    "description": "A classic Brazilian cocktail made with cachaça and lime.",
+    "ingredients": [
+      { "name": "Cachaça", "quantity": 60, "unit": "ml" },
+      { "name": "Lime", "quantity": 1, "unit": "unit" },
+      { "name": "Sugar", "quantity": 2, "unit": "teaspoons" }
+    ],
+    "instructions": [
+      "Cut lime into wedges and muddle with sugar in a glass.",
+      "Fill the glass with crushed ice and add cachaça.",
+      "Stir well and serve."
+    ],
+    "category": "Classic",
+    "imagePath": "/images/caipirinha.jpg"
+  },
+  {
+    "name": "Mojito",
+    "description": "A refreshing cocktail with mint, lime, and rum.",
+    "ingredients": [
+      { "name": "Fresh mint leaves", "quantity": 10, "unit": "leaves" },
+      { "name": "White rum", "quantity": 60, "unit": "ml" },
+      { "name": "Lime juice", "quantity": 30, "unit": "ml" },
+      { "name": "Simple syrup", "quantity": 15, "unit": "ml" },
+      { "name": "Club soda", "quantity": 90, "unit": "ml" }
+    ],
+    "instructions": [
+      "Muddle mint leaves and simple syrup in a glass.",
+      "Add lime juice and rum.",
+      "Fill the glass with ice and top with club soda.",
+      "Garnish with mint sprig and lime wedge."
+    ],
+    "category": "Classic",
+    "imagePath": "/images/mojito.jpg"
+  },
+  {
+    "name": "Passion Fruit Mojito",
+    "description": "A tropical twist on the classic mojito with passion fruit.",
+    "ingredients": [
+      { "name": "Fresh mint leaves", "quantity": 10, "unit": "leaves" },
+      { "name": "White rum", "quantity": 60, "unit": "ml" },
+      { "name": "Lime juice", "quantity": 30, "unit": "ml" },
+      { "name": "Passion fruit pulp", "quantity": 2, "unit": "tablespoons" },
+      { "name": "Simple syrup", "quantity": 15, "unit": "ml" },
+      { "name": "Club soda", "quantity": 90, "unit": "ml" }
+    ],
+    "instructions": [
+      "Muddle mint leaves, passion fruit pulp, and simple syrup in a glass.",
+      "Add lime juice and rum.",
+      "Fill the glass with ice and top with club soda.",
+      "Garnish with mint sprig and passion fruit slice."
+    ],
+    "category": "Modern",
+    "imagePath": "/images/passion_fruit_mojito.jpg"
+  },
+  {
+    "name": "Ipanema",
+    "description": "A non-alcoholic mocktail similar to a mojito.",
+    "ingredients": [
+      { "name": "Fresh mint leaves", "quantity": 10, "unit": "leaves" },
+      { "name": "Lime juice", "quantity": 30, "unit": "ml" },
+      { "name": "Simple syrup", "quantity": 15, "unit": "ml" },
+      { "name": "Ginger beer", "quantity": 90, "unit": "ml" }
+    ],
+    "instructions": [
+      "Muddle mint leaves and simple syrup in a glass.",
+      "Add lime juice.",
+      "Fill the glass with ice and top with ginger beer.",
+      "Garnish with mint sprig and lime wedge."
+    ],
+    "category": "Modern",
+    "imagePath": "/images/ipanema.jpg"
+  },
+  {
+    "name": "Rum Sour",
+    "description": "A sour cocktail made with rum, lemon, and sugar.",
+    "ingredients": [
+      { "name": "Dark rum", "quantity": 60, "unit": "ml" },
+      { "name": "Lemon juice", "quantity": 30, "unit": "ml" },
+      { "name": "Simple syrup", "quantity": 15, "unit": "ml" }
+    ],
+    "instructions": [
+      "Shake all ingredients with ice.",
+      "Strain into a glass filled with ice."
+    ],
+    "category": "Classic",
+    "imagePath": "/images/rum_sour.jpg"
+  },
+  {
+    "name": "Gin Fizz",
+    "description": "A bubbly gin-based cocktail with citrus and soda.",
+    "ingredients": [
+      { "name": "Gin", "quantity": 60, "unit": "ml" },
+      { "name": "Lemon juice", "quantity": 30, "unit": "ml" },
+      { "name": "Simple syrup", "quantity": 15, "unit": "ml" },
+      { "name": "Soda water", "quantity": 90, "unit": "ml" }
+    ],
+    "instructions": [
+      "Shake gin, lemon juice, and simple syrup with ice.",
+      "Strain into a glass filled with ice.",
+      "Top with soda water."
+    ],
+    "category": "Classic",
+    "imagePath": "/images/gin_fizz.jpg"
+  }
+]
