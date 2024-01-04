@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./App.css";
 import "./styles/style.css";
+import { ICocktail, IIngredient } from "./models/interfaces";
 
-import Cocktails from "./components/cocktails";
+import CocktailCard from "./components/cocktailCard";
 import {
   Container,
   Navbar,
@@ -14,6 +15,25 @@ import {
 } from "react-bootstrap";
 
 function App() {
+  const [cocktails, setCocktails] = useState<ICocktail[]>([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch("/cocktails.json");
+        if (!response.ok) {
+          throw new Error("Network response was not ok.");
+        }
+        const data: ICocktail[] = await response.json();
+        setCocktails(data);
+      } catch (error) {
+        console.error("Error reading file", error);
+      }
+    };
+
+    fetchData();
+  }, []); // Empty dependency array means this effect runs once on mount
+
   return (
     <div>
       <Navbar bg="light" expand="lg">
@@ -63,15 +83,18 @@ function App() {
       </Navbar>
       <div className="container">
         <div className="row">
-          <div className="col-md col-sm-6">
-            <Cocktails />
+          <div>
+            {cocktails &&
+              cocktails.map((cocktail, index) => (
+                <div key={index} className="col-md col-sm-6">
+                  <CocktailCard {...cocktail} />
+                </div>
+              ))}
           </div>
-          <div className="col-md col-sm-6">
-            <Cocktails />
-          </div>
-          <div className="col-md col-sm-6">
-            <Cocktails />
-          </div>
+          <div></div>
+          <div className="col-md col-sm-6">empty</div>
+          <div className="col-md col-sm-6">empty</div>
+          <div className="col-md col-sm-6">empty</div>
         </div>
       </div>
     </div>

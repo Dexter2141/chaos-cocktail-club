@@ -1,5 +1,5 @@
 {
-  "name": "chaos-coktail-club",
+  "name": "chaos-cocktail-club",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -41,5 +41,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "browser": {
+    "crypto": false,
+    "fs": false,
+    "path": false,
+    "os": false,
+    "net": false,
+    "stream": false,
+    "tls": false
   }
 }
