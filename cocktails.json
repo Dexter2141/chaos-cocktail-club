@@ -13,7 +13,7 @@
       "Strain into a chilled martini glass."
     ],
     "category": "Modern",
-    "imagePath": "/images/espresso_martini.jpg"
+    "imagePath": "images/espresso_martini.jpg"
   },
   {
     "name": "Gin Basil Smash",
@@ -30,7 +30,7 @@
       "Double strain into a glass filled with ice."
     ],
     "category": "Modern",
-    "imagePath": "/images/gin_basil_smash.jpg"
+    "imagePath": "images/gin_basil_smash.jpg"
   },
   {
     "name": "Solero",
@@ -48,7 +48,7 @@
       "Top with a splash of soda water."
     ],
     "category": "Modern",
-    "imagePath": "/images/solero.jpg"
+    "imagePath": "images/solero.jpg"
   },
   {
     "name": "Caipirinha",
@@ -64,7 +64,7 @@
       "Stir well and serve."
     ],
     "category": "Classic",
-    "imagePath": "/images/caipirinha.jpg"
+    "imagePath": "images/caipirinha.jpg"
   },
   {
     "name": "Mojito",
@@ -83,7 +83,7 @@
       "Garnish with mint sprig and lime wedge."
     ],
     "category": "Classic",
-    "imagePath": "/images/mojito.jpg"
+    "imagePath": "images/mojito.jpg"
   },
   {
     "name": "Passion Fruit Mojito",
@@ -103,7 +103,7 @@
       "Garnish with mint sprig and passion fruit slice."
     ],
     "category": "Modern",
-    "imagePath": "/images/passion_fruit_mojito.jpg"
+    "imagePath": "images/passion_fruit_mojito.jpg"
   },
   {
     "name": "Ipanema",
@@ -121,7 +121,7 @@
       "Garnish with mint sprig and lime wedge."
     ],
     "category": "Modern",
-    "imagePath": "/images/ipanema.jpg"
+    "imagePath": "images/ipanema.jpg"
   },
   {
     "name": "Rum Sour",
@@ -136,7 +136,7 @@
       "Strain into a glass filled with ice."
     ],
     "category": "Classic",
-    "imagePath": "/images/rum_sour.jpg"
+    "imagePath": "images/rum_sour.jpg"
   },
   {
     "name": "Gin Fizz",
@@ -153,6 +153,6 @@
       "Top with soda water."
     ],
     "category": "Classic",
-    "imagePath": "/images/gin_fizz.jpg"
+    "imagePath": "images/gin_fizz.jpg"
   }
 ]
