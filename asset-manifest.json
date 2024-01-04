@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/chaos-cocktail-club/static/css/main.9531fc32.css",
-    "main.js": "/chaos-cocktail-club/static/js/main.2dbcd913.js",
+    "main.js": "/chaos-cocktail-club/static/js/main.ad387d98.js",
     "static/js/787.a2e2b2dd.chunk.js": "/chaos-cocktail-club/static/js/787.a2e2b2dd.chunk.js",
     "index.html": "/chaos-cocktail-club/index.html",
     "main.9531fc32.css.map": "/chaos-cocktail-club/static/css/main.9531fc32.css.map",
-    "main.2dbcd913.js.map": "/chaos-cocktail-club/static/js/main.2dbcd913.js.map",
+    "main.ad387d98.js.map": "/chaos-cocktail-club/static/js/main.ad387d98.js.map",
     "787.a2e2b2dd.chunk.js.map": "/chaos-cocktail-club/static/js/787.a2e2b2dd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9531fc32.css",
-    "static/js/main.2dbcd913.js"
+    "static/js/main.ad387d98.js"
   ]
 }
