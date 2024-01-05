@@ -34,7 +34,7 @@
   },
   {
     "name": "Solero",
-    "description": "A fruity and tropical cocktail.",
+    "description": "A fruity and tropical cocktail with vanill that reminds of the Solero ice cream.",
     "ingredients": [
       { "name": "Vodka", "quantity": 50, "unit": "ml" },
       { "name": "Passion fruit juice", "quantity": 100, "unit": "ml" },
