@@ -1,5 +1,6 @@
 [
   {
+    "id": "EspressoMartini",
     "name": "Espresso Martini",
     "description": "A coffee-flavored cocktail with vodka and espresso.",
     "ingredients": [
@@ -16,6 +17,7 @@
     "imagePath": "images/espresso_martini.jpg"
   },
   {
+    "id": "GinBasilSmash",
     "name": "Gin Basil Smash",
     "description": "A refreshing gin-based cocktail with basil and citrus.",
     "ingredients": [
@@ -33,8 +35,9 @@
     "imagePath": "images/gin_basil_smash.jpg"
   },
   {
+    "id": "Solero",
     "name": "Solero",
-    "description": "A fruity and tropical cocktail with vanill that reminds of the Solero ice cream.",
+    "description": "A fruity and tropical cocktail with vanilla that reminds of the Solero ice cream.",
     "ingredients": [
       { "name": "Vodka", "quantity": 50, "unit": "ml" },
       { "name": "Passion fruit juice", "quantity": 100, "unit": "ml" },
@@ -51,6 +54,7 @@
     "imagePath": "images/solero.jpg"
   },
   {
+    "id": "Caipirinha",
     "name": "Caipirinha",
     "description": "A classic Brazilian cocktail made with cachaça and lime.",
     "ingredients": [
@@ -67,6 +71,7 @@
     "imagePath": "images/caipirinha.jpg"
   },
   {
+    "id": "Mojito",
     "name": "Mojito",
     "description": "A refreshing cocktail with mint, lime, and rum.",
     "ingredients": [
@@ -86,6 +91,7 @@
     "imagePath": "images/mojito.jpg"
   },
   {
+    "id": "PassionFruitMojito",
     "name": "Passion Fruit Mojito",
     "description": "A tropical twist on the classic mojito with passion fruit.",
     "ingredients": [
@@ -106,6 +112,7 @@
     "imagePath": "images/passion_fruit_mojito.jpg"
   },
   {
+    "id": "Ipanema",
     "name": "Ipanema",
     "description": "A non-alcoholic mocktail similar to a mojito.",
     "ingredients": [
@@ -124,6 +131,7 @@
     "imagePath": "images/ipanema.jpg"
   },
   {
+    "id": "RumSour",
     "name": "Rum Sour",
     "description": "A sour cocktail made with rum, lemon, and sugar.",
     "ingredients": [
@@ -139,6 +147,7 @@
     "imagePath": "images/rum_sour.jpg"
   },
   {
+    "id": "GinFizz",
     "name": "Gin Fizz",
     "description": "A bubbly gin-based cocktail with citrus and soda.",
     "ingredients": [
@@ -154,5 +163,38 @@
     ],
     "category": "Classic",
     "imagePath": "images/gin_fizz.jpg"
+  },
+  {
+    "id": "negroni",
+    "name": "Negroni",
+    "description": "A popular Italian cocktail, made of one part gin, one part vermouth rosso, and one part Campari.",
+    "ingredients": [
+      {
+        "name": "Gin",
+        "quantity": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "Vermouth Rosso",
+        "quantity": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "Campari",
+        "quantity": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "Orange peel",
+        "quantity": 1,
+        "unit": "slice"
+      }
+    ],
+    "instructions": [
+      "Stir into glass over ice, garnish and serve.",
+      "Garnish with orange peel."
+    ],
+    "category": "Classic",
+    "imagePath": "images/negroni.jpg"
   }
 ]
