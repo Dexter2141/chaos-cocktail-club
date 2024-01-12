@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/chaos-cocktail-club/static/css/main.4e64ceaf.css",
-    "main.js": "/chaos-cocktail-club/static/js/main.3659a823.js",
+    "main.css": "/chaos-cocktail-club/static/css/main.7f53eaea.css",
+    "main.js": "/chaos-cocktail-club/static/js/main.5b963650.js",
     "static/js/787.a2e2b2dd.chunk.js": "/chaos-cocktail-club/static/js/787.a2e2b2dd.chunk.js",
     "static/media/gin_basil_smash.jpg": "/chaos-cocktail-club/static/media/gin_basil_smash.5abd160ee2047bab0db2.jpg",
     "static/media/bar_equipment.jpg": "/chaos-cocktail-club/static/media/bar_equipment.2b74b72a35db17d7c7c7.jpg",
     "static/media/cocktail_logo.png": "/chaos-cocktail-club/static/media/cocktail_logo.93f96bb4d48b5b3498d2.png",
     "index.html": "/chaos-cocktail-club/index.html",
-    "main.4e64ceaf.css.map": "/chaos-cocktail-club/static/css/main.4e64ceaf.css.map",
-    "main.3659a823.js.map": "/chaos-cocktail-club/static/js/main.3659a823.js.map",
+    "main.7f53eaea.css.map": "/chaos-cocktail-club/static/css/main.7f53eaea.css.map",
+    "main.5b963650.js.map": "/chaos-cocktail-club/static/js/main.5b963650.js.map",
     "787.a2e2b2dd.chunk.js.map": "/chaos-cocktail-club/static/js/787.a2e2b2dd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e64ceaf.css",
-    "static/js/main.3659a823.js"
+    "static/css/main.7f53eaea.css",
+    "static/js/main.5b963650.js"
   ]
 }

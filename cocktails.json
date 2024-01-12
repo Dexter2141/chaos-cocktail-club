@@ -197,5 +197,32 @@
     ],
     "category": "Classic",
     "imagePath": "images/negroni.jpg"
+  },
+  {
+    "id": "LongIslandIcedTea",
+    "name": "Long Island Iced Tea",
+    "description": "A classic cocktail known for its mix of multiple spirits with cola and citrus flavors.",
+    "ingredients": [
+      { "name": "Vodka", "quantity": 15, "unit": "ml" },
+      { "name": "Rum", "quantity": 15, "unit": "ml" },
+      { "name": "Gin", "quantity": 15, "unit": "ml" },
+      { "name": "Tequila", "quantity": 15, "unit": "ml" },
+      { "name": "Triple Sec", "quantity": 15, "unit": "ml" },
+      { "name": "Lemon Juice", "quantity": 22.5, "unit": "ml" },
+      { "name": "Cola", "quantity": 60, "unit": "ml" },
+      { "name": "Lemon Slice", "quantity": 1, "unit": "slice" },
+      { "name": "Lime Slice", "quantity": 1, "unit": "slice" },
+      { "name": "Orange Slice", "quantity": 1, "unit": "slice" },
+      { "name": "Cherry", "quantity": 1, "unit": "cherry" }
+    ],
+    "instructions": [
+      "In a shaker, combine Vodka, Rum, Gin, Tequila, Triple Sec, and Lemon Juice.",
+      "Shake well and strain into a highball glass filled with ice.",
+      "Top with Cola and stir gently.",
+      "Garnish with a slice of Lemon, Lime, Orange, and a Cherry.",
+      "Serve and enjoy!"
+    ],
+    "category": "Classic",
+    "imagePath": "images/long_island_iced_tea.jpg"
   }
 ]
