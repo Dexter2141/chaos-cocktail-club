@@ -135,10 +135,10 @@
     "name": "Rum Sour",
     "description": "A sour cocktail made with rum, lemon, and sugar.",
     "ingredients": [
-      { "name": "Dark rum", "quantity": 45, "unit": "ml" },
-      { "name": "Lemon juice", "quantity": 30, "unit": "ml" },
-      { "name": "Simple syrup", "quantity": 15, "unit": "ml" },
-      { "name": "Egg white", "quantity": 15, "unit": "ml" }
+      { "name": "Dark rum", "quantity": 90, "unit": "ml" },
+      { "name": "Lemon juice", "quantity": 60, "unit": "ml" },
+      { "name": "Simple syrup", "quantity": 30, "unit": "ml" },
+      { "name": "Egg white", "quantity": 30, "unit": "ml" }
     ],
     "instructions": [
       "Shake all ingredients with ice.",
