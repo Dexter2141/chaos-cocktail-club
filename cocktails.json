@@ -4,10 +4,10 @@
     "name": "Espresso Martini",
     "description": "A coffee-flavored cocktail with vodka and espresso.",
     "ingredients": [
-      { "name": "Vodka", "quantity": 45, "unit": "ml" },
+      { "name": "Vodka", "quantity": 40, "unit": "ml" },
       { "name": "Coffee liqueur", "quantity": 30, "unit": "ml" },
       { "name": "Espresso", "quantity": 30, "unit": "ml" },
-      { "name": "Simple syrup", "quantity": 10, "unit": "ml" }
+      { "name": "Simple syrup", "quantity": 5, "unit": "ml" }
     ],
     "instructions": [
       "Shake all ingredients with ice.",
@@ -23,8 +23,8 @@
     "ingredients": [
       { "name": "Gin", "quantity": 60, "unit": "ml" },
       { "name": "Fresh basil leaves", "quantity": 8, "unit": "leaves" },
-      { "name": "Lemon juice", "quantity": 30, "unit": "ml" },
-      { "name": "Simple syrup", "quantity": 15, "unit": "ml" }
+      { "name": "Lemon juice", "quantity": 20, "unit": "ml" },
+      { "name": "Simple syrup", "quantity": 20, "unit": "ml" }
     ],
     "instructions": [
       "Muddle basil leaves and simple syrup in a shaker.",
@@ -42,8 +42,8 @@
       { "name": "Vodka", "quantity": 50, "unit": "ml" },
       { "name": "Passion fruit juice", "quantity": 100, "unit": "ml" },
       { "name": "Orange juice", "quantity": 50, "unit": "ml" },
-      { "name": "Simple syrup", "quantity": 10, "unit": "ml" },
-      { "name": "Soda water", "quantity": 1, "unit": "splash" }
+      { "name": "Vanilla syrup", "quantity": 10, "unit": "ml" },
+      { "name": "Lemon juice", "quantity": 10, "unit": "ml" }
     ],
     "instructions": [
       "Shake vodka, passion fruit juice, orange juice, and simple syrup with ice.",
@@ -135,9 +135,10 @@
     "name": "Rum Sour",
     "description": "A sour cocktail made with rum, lemon, and sugar.",
     "ingredients": [
-      { "name": "Dark rum", "quantity": 60, "unit": "ml" },
+      { "name": "Dark rum", "quantity": 45, "unit": "ml" },
       { "name": "Lemon juice", "quantity": 30, "unit": "ml" },
-      { "name": "Simple syrup", "quantity": 15, "unit": "ml" }
+      { "name": "Simple syrup", "quantity": 15, "unit": "ml" },
+      { "name": "Egg white", "quantity": 15, "unit": "ml" }
     ],
     "instructions": [
       "Shake all ingredients with ice.",
@@ -171,17 +172,17 @@
     "ingredients": [
       {
         "name": "Gin",
-        "quantity": 30,
+        "quantity": 40,
         "unit": "ml"
       },
       {
         "name": "Vermouth Rosso",
-        "quantity": 30,
+        "quantity": 40,
         "unit": "ml"
       },
       {
         "name": "Campari",
-        "quantity": 30,
+        "quantity": 40,
         "unit": "ml"
       },
       {
