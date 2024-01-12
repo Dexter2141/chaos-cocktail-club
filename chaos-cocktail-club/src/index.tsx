@@ -4,17 +4,31 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-// Bootstrap CSS
-import "bootstrap/dist/css/bootstrap.min.css";
-// Bootstrap Bundle JS
-import "bootstrap/dist/js/bootstrap.bundle.min";
+import { HashRouter, Route, Routes } from "react-router-dom";
+//import { BrowserRouter, Route, Routes } from "react-router-dom";
+import CocktailCardDetail from "./components/cocktailCardDetail";
+import Home from "./components/home";
+import About from "./components/about";
+import { DataContextProvider } from "./provider/DataContext";
+import NavigationBar from "./components/navigationBar";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <DataContextProvider>
+      <NavigationBar />
+      <HashRouter>
+        <Routes>
+          <Route path="/home" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/cocktails" element={<App />} />
+          <Route path="/:id" element={<CocktailCardDetail />} />
+          <Route path="/" element={<App />} />
+        </Routes>
+      </HashRouter>
+    </DataContextProvider>
   </React.StrictMode>
 );
 

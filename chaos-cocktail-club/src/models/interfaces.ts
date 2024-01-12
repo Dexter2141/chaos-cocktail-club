@@ -1,8 +1,9 @@
 export interface ICocktail {
+  id?: string;
   name?: string;
   description?: string;
   ingredients?: IIngredient[];
-  instructions?: string;
+  instructions?: string[];
   category?: string;
   imagePath?: string;
 }

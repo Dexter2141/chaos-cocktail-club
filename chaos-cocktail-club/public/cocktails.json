@@ -1,28 +1,30 @@
 [
   {
+    "id": "EspressoMartini",
     "name": "Espresso Martini",
     "description": "A coffee-flavored cocktail with vodka and espresso.",
     "ingredients": [
-      { "name": "Vodka", "quantity": 45, "unit": "ml" },
+      { "name": "Vodka", "quantity": 40, "unit": "ml" },
       { "name": "Coffee liqueur", "quantity": 30, "unit": "ml" },
       { "name": "Espresso", "quantity": 30, "unit": "ml" },
-      { "name": "Simple syrup", "quantity": 10, "unit": "ml" }
+      { "name": "Simple syrup", "quantity": 5, "unit": "ml" }
     ],
     "instructions": [
       "Shake all ingredients with ice.",
       "Strain into a chilled martini glass."
     ],
     "category": "Modern",
-    "imagePath": "/images/espresso_martini.jpg"
+    "imagePath": "images/espresso_martini.jpg"
   },
   {
+    "id": "GinBasilSmash",
     "name": "Gin Basil Smash",
     "description": "A refreshing gin-based cocktail with basil and citrus.",
     "ingredients": [
       { "name": "Gin", "quantity": 60, "unit": "ml" },
       { "name": "Fresh basil leaves", "quantity": 8, "unit": "leaves" },
-      { "name": "Lemon juice", "quantity": 30, "unit": "ml" },
-      { "name": "Simple syrup", "quantity": 15, "unit": "ml" }
+      { "name": "Lemon juice", "quantity": 20, "unit": "ml" },
+      { "name": "Simple syrup", "quantity": 20, "unit": "ml" }
     ],
     "instructions": [
       "Muddle basil leaves and simple syrup in a shaker.",
@@ -30,17 +32,18 @@
       "Double strain into a glass filled with ice."
     ],
     "category": "Modern",
-    "imagePath": "/images/gin_basil_smash.jpg"
+    "imagePath": "images/gin_basil_smash.jpg"
   },
   {
+    "id": "Solero",
     "name": "Solero",
-    "description": "A fruity and tropical cocktail.",
+    "description": "A fruity and tropical cocktail with vanilla that reminds of the Solero ice cream.",
     "ingredients": [
       { "name": "Vodka", "quantity": 50, "unit": "ml" },
       { "name": "Passion fruit juice", "quantity": 100, "unit": "ml" },
       { "name": "Orange juice", "quantity": 50, "unit": "ml" },
-      { "name": "Simple syrup", "quantity": 10, "unit": "ml" },
-      { "name": "Soda water", "quantity": 1, "unit": "splash" }
+      { "name": "Vanilla syrup", "quantity": 10, "unit": "ml" },
+      { "name": "Lemon juice", "quantity": 10, "unit": "ml" }
     ],
     "instructions": [
       "Shake vodka, passion fruit juice, orange juice, and simple syrup with ice.",
@@ -48,9 +51,10 @@
       "Top with a splash of soda water."
     ],
     "category": "Modern",
-    "imagePath": "/images/solero.jpg"
+    "imagePath": "images/solero.jpg"
   },
   {
+    "id": "Caipirinha",
     "name": "Caipirinha",
     "description": "A classic Brazilian cocktail made with cachaça and lime.",
     "ingredients": [
@@ -64,9 +68,10 @@
       "Stir well and serve."
     ],
     "category": "Classic",
-    "imagePath": "/images/caipirinha.jpg"
+    "imagePath": "images/caipirinha.jpg"
   },
   {
+    "id": "Mojito",
     "name": "Mojito",
     "description": "A refreshing cocktail with mint, lime, and rum.",
     "ingredients": [
@@ -83,9 +88,10 @@
       "Garnish with mint sprig and lime wedge."
     ],
     "category": "Classic",
-    "imagePath": "/images/mojito.jpg"
+    "imagePath": "images/mojito.jpg"
   },
   {
+    "id": "PassionFruitMojito",
     "name": "Passion Fruit Mojito",
     "description": "A tropical twist on the classic mojito with passion fruit.",
     "ingredients": [
@@ -103,9 +109,10 @@
       "Garnish with mint sprig and passion fruit slice."
     ],
     "category": "Modern",
-    "imagePath": "/images/passion_fruit_mojito.jpg"
+    "imagePath": "images/passion_fruit_mojito.jpg"
   },
   {
+    "id": "Ipanema",
     "name": "Ipanema",
     "description": "A non-alcoholic mocktail similar to a mojito.",
     "ingredients": [
@@ -121,24 +128,27 @@
       "Garnish with mint sprig and lime wedge."
     ],
     "category": "Modern",
-    "imagePath": "/images/ipanema.jpg"
+    "imagePath": "images/ipanema.jpg"
   },
   {
+    "id": "RumSour",
     "name": "Rum Sour",
     "description": "A sour cocktail made with rum, lemon, and sugar.",
     "ingredients": [
-      { "name": "Dark rum", "quantity": 60, "unit": "ml" },
-      { "name": "Lemon juice", "quantity": 30, "unit": "ml" },
-      { "name": "Simple syrup", "quantity": 15, "unit": "ml" }
+      { "name": "Dark rum", "quantity": 90, "unit": "ml" },
+      { "name": "Lemon juice", "quantity": 60, "unit": "ml" },
+      { "name": "Simple syrup", "quantity": 30, "unit": "ml" },
+      { "name": "Egg white", "quantity": 30, "unit": "ml" }
     ],
     "instructions": [
       "Shake all ingredients with ice.",
       "Strain into a glass filled with ice."
     ],
     "category": "Classic",
-    "imagePath": "/images/rum_sour.jpg"
+    "imagePath": "images/rum_sour.jpg"
   },
   {
+    "id": "GinFizz",
     "name": "Gin Fizz",
     "description": "A bubbly gin-based cocktail with citrus and soda.",
     "ingredients": [
@@ -153,6 +163,66 @@
       "Top with soda water."
     ],
     "category": "Classic",
-    "imagePath": "/images/gin_fizz.jpg"
+    "imagePath": "images/gin_fizz.jpg"
+  },
+  {
+    "id": "negroni",
+    "name": "Negroni",
+    "description": "A popular Italian cocktail, made of one part gin, one part vermouth rosso, and one part Campari.",
+    "ingredients": [
+      {
+        "name": "Gin",
+        "quantity": 40,
+        "unit": "ml"
+      },
+      {
+        "name": "Vermouth Rosso",
+        "quantity": 40,
+        "unit": "ml"
+      },
+      {
+        "name": "Campari",
+        "quantity": 40,
+        "unit": "ml"
+      },
+      {
+        "name": "Orange peel",
+        "quantity": 1,
+        "unit": "slice"
+      }
+    ],
+    "instructions": [
+      "Stir into glass over ice, garnish and serve.",
+      "Garnish with orange peel."
+    ],
+    "category": "Classic",
+    "imagePath": "images/negroni.jpg"
+  },
+  {
+    "id": "LongIslandIcedTea",
+    "name": "Long Island Iced Tea",
+    "description": "A classic cocktail known for its mix of multiple spirits with cola and citrus flavors.",
+    "ingredients": [
+      { "name": "Vodka", "quantity": 15, "unit": "ml" },
+      { "name": "Rum", "quantity": 15, "unit": "ml" },
+      { "name": "Gin", "quantity": 15, "unit": "ml" },
+      { "name": "Tequila", "quantity": 15, "unit": "ml" },
+      { "name": "Triple Sec", "quantity": 15, "unit": "ml" },
+      { "name": "Lemon Juice", "quantity": 22.5, "unit": "ml" },
+      { "name": "Cola", "quantity": 60, "unit": "ml" },
+      { "name": "Lemon Slice", "quantity": 1, "unit": "slice" },
+      { "name": "Lime Slice", "quantity": 1, "unit": "slice" },
+      { "name": "Orange Slice", "quantity": 1, "unit": "slice" },
+      { "name": "Cherry", "quantity": 1, "unit": "cherry" }
+    ],
+    "instructions": [
+      "In a shaker, combine Vodka, Rum, Gin, Tequila, Triple Sec, and Lemon Juice.",
+      "Shake well and strain into a highball glass filled with ice.",
+      "Top with Cola and stir gently.",
+      "Garnish with a slice of Lemon, Lime, Orange, and a Cherry.",
+      "Serve and enjoy!"
+    ],
+    "category": "Classic",
+    "imagePath": "images/long_island_iced_tea.jpg"
   }
 ]

@@ -1,101 +1,39 @@
-import React, { useEffect, useState } from "react";
 import "./App.css";
 import "./styles/style.css";
-import { ICocktail, IIngredient } from "./models/interfaces";
-
 import CocktailCard from "./components/cocktailCard";
-import {
-  Container,
-  Navbar,
-  Nav,
-  NavDropdown,
-  Form,
-  FormControl,
-  Button,
-} from "react-bootstrap";
+import { useData } from "./provider/DataContext";
+import { ICocktail } from "./models/interfaces";
 
 function App() {
-  const [cocktails, setCocktails] = useState<ICocktail[]>([]);
+  // get cocktail data stored in cocktails.json
+  const { data } = useData();
 
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch("/cocktails.json");
-        if (!response.ok) {
-          throw new Error("Network response was not ok.");
-        }
-        const data: ICocktail[] = await response.json();
-        setCocktails(data);
-      } catch (error) {
-        console.error("Error reading file", error);
-      }
-    };
+  if (!data) {
+    return (
+      <div id="loading">
+        <button className="btn btn-dark" type="button" disabled>
+          <span
+            className="spinner-border spinner-border-sm"
+            aria-hidden="true"
+          ></span>
+          <span role="status">Loading...</span>
+        </button>
+      </div>
+    );
+  }
 
-    fetchData();
-  }, []); // Empty dependency array means this effect runs once on mount
+  const cocktails: ICocktail[] = data;
 
   return (
     <div>
-      <Navbar bg="light" expand="lg">
-        <Container>
-          <Navbar.Brand href="#home">
-            <img
-              src="martini_glass.png"
-              alt="logo"
-              width="25"
-              height="25"
-              className="d-inline-block align-top"
-            />
-            CCC
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#cocktails">Cocktails</Nav.Link>
-              <Nav.Link href="#about">About</Nav.Link>
-              <NavDropdown title="Categories" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#categories/new">New</NavDropdown.Item>
-                <NavDropdown.Item href="#categories/classic">
-                  Classic
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#categories/fancy">
-                  Fancy
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#categories/oftheday">
-                  Of the day
-                </NavDropdown.Item>
-              </NavDropdown>
-              {/* Add more Nav.Link components as needed */}
-            </Nav>
-            <Form className="d-flex">
-              <FormControl
-                type="search"
-                placeholder="Search"
-                className="me-2"
-                aria-label="Search"
-              />
-              <Button variant="outline-dark">Search</Button>
-            </Form>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
-      <div className="container">
-        <div className="row">
-          <div>
-            {cocktails &&
-              cocktails.map((cocktail, index) => (
-                <div key={index} className="col-md col-sm-6">
-                  <CocktailCard {...cocktail} />
-                </div>
-              ))}
-          </div>
-          <div></div>
-          <div className="col-md col-sm-6">empty</div>
-          <div className="col-md col-sm-6">empty</div>
-          <div className="col-md col-sm-6">empty</div>
-        </div>
+      <h1 className="news-header">Cocktails</h1>
+      <div className="row row-cols-1 row-cols-md-3 g-4">
+        {cocktails &&
+          cocktails.map((cocktail, index) => (
+            <div key={index} className="col">
+              <CocktailCard {...cocktail} />
+            </div>
+          ))}
       </div>
     </div>
   );

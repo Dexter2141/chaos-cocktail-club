@@ -2,3 +2,74 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+
+.card-img-container {
+  height: 300px; /* Set the desired height for the card */
+  overflow: hidden;
+}
+
+.card-img {
+  width: 100%; /* Ensures the image takes full width of its container */
+  height: auto; /* Allows the image to maintain its aspect ratio */
+}
+
+#loading {
+  display: flex;
+  justify-content: center;
+  height: 70vh;
+  align-items: center;
+}
+
+.news-header {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 1rem;
+}
+
+.news-header::before,
+.news-header::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 60%;
+  height: 2px;
+  background-color: #000; /* Adjust the color as needed */
+}
+
+.news-header::before {
+  left: 0;
+  transform: translateX(-50%);
+}
+
+.news-header::after {
+  right: 0;
+  transform: translateX(50%);
+}
+
+#home-text {
+  margin: auto;
+  display: block;
+}
+
+.custom-card {
+  max-width: 100%;
+}
+
+/* Media query for screens with a minimum width of 768px (tablets and larger) */
+@media (min-width: 768px) {
+  .custom-card {
+    max-width: 70%; /* Adjust the max-width value as needed */
+  }
+}
+
+.card-detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.brand-logo {
+  margin-top: 3rem;
+}
