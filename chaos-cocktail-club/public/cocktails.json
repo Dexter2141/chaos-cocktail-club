@@ -225,4 +225,23 @@
     "category": "Classic",
     "imagePath": "images/long_island_iced_tea.jpg"
   }
+  {
+    "id": "Maltero",
+    "name": "Maltero",
+    "description": "A new designed cocktail by the chaos club with a little falvour of solero.",
+    "ingredients": [
+      { "name": "Vodka", "quantity": 80, "unit": "ml" },
+      { "name": "Mango juice", "quantity": 80, "unit": "ml" },
+      { "name": "Vanilla syrup", "quantity": 40, "unit": "ml" },
+      { "name": "Lemon juice", "quantity": 40, "unit": "ml" }
+      { "name": "Peach mash", "quantity": 60, "unit": "ml" }
+    ],
+    "instructions": [
+      "In a shaker, combine all ingredients.",
+      "Shake well and strain rough into a highball glass filled with ice.",
+      "Serve and enjoy!"
+    ],
+    "category": "Created by Chaos Club",
+    "imagePath": "images/maltero.jpg"
+  }
 ]
