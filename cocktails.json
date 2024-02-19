@@ -243,5 +243,26 @@
     ],
     "category": "ByChaosClub",
     "imagePath": "images/maltero.jpg"
+  },
+  {
+    "id": "BlackBird",
+    "name": "Black Bird (Maltocchino)",
+    "description": "A new designed cocktail by the chaos club with a little falvour of solero.",
+    "ingredients": [
+      { "name": "Vodka", "quantity": 40, "unit": "ml" },
+      { "name": "Blackberry liqeur", "quantity": 15, "unit": "ml" },
+      { "name": "Simple syrup", "quantity": 10, "unit": "ml" },
+      { "name": "Lemon juice", "quantity": 20, "unit": "ml" },
+      { "name": "Egg white", "quantity": 0.5, "unit": "egg whites" },
+      { "name": "Coffee", "quantity": 10, "unit": "ml" },
+      { "name": "Indian tonic water", "quantity": 50, "unit": "ml" }
+    ],
+    "instructions": [
+      "In a shaker, combine all ingredients.",
+      "Shake well and strain rough into a highball glass filled with ice.",
+      "Serve and enjoy!"
+    ],
+    "category": "ByChaosClub",
+    "imagePath": "images/black_bird.jpg"
   }
 ]
