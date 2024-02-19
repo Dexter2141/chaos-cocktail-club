@@ -9,8 +9,9 @@ import { HashRouter, Route, Routes } from "react-router-dom";
 import CocktailCardDetail from "./components/cocktailCardDetail";
 import Home from "./components/home";
 import About from "./components/about";
-import { DataContextProvider } from "./provider/DataContext";
 import NavigationBar from "./components/navigationBar";
+import Category from "./components/category";
+import { DataContextProvider } from "./provider/DataContext";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -25,7 +26,8 @@ root.render(
           <Route path="/about" element={<About />} />
           <Route path="/cocktails" element={<App />} />
           <Route path="/:id" element={<CocktailCardDetail />} />
-          <Route path="/" element={<App />} />
+          <Route path="/categories/:category" element={<Category />} />
+          <Route path="/" element={<Home />} />
         </Routes>
       </HashRouter>
     </DataContextProvider>

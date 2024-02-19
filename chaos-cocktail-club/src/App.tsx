@@ -1,12 +1,14 @@
-import "./App.css";
+//import "./App.css";
 import "./styles/style.css";
-import CocktailCard from "./components/cocktailCard";
+import CocktailCardList from "./components/cocktailCardList";
 import { useData } from "./provider/DataContext";
 import { ICocktail } from "./models/interfaces";
+import { searchQueryOut } from "./components/navigationBar";
 
 function App() {
-  // get cocktail data stored in cocktails.json
-  const { data } = useData();
+  const { data } = useData(
+    "http://localhost:3000/chaos-cocktail-club/cocktails.json"
+  );
 
   if (!data) {
     return (
@@ -23,18 +25,14 @@ function App() {
   }
 
   const cocktails: ICocktail[] = data;
+  const sortedCocktails = [...cocktails].sort((a, b) =>
+    a.name.localeCompare(b.name)
+  );
 
   return (
     <div>
       <h1 className="news-header">Cocktails</h1>
-      <div className="row row-cols-1 row-cols-md-3 g-4">
-        {cocktails &&
-          cocktails.map((cocktail, index) => (
-            <div key={index} className="col">
-              <CocktailCard {...cocktail} />
-            </div>
-          ))}
-      </div>
+      <CocktailCardList cocktails={sortedCocktails} />
     </div>
   );
 }

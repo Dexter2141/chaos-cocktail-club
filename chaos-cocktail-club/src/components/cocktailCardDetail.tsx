@@ -14,7 +14,9 @@ function CocktailCardDetail() {
   };
 
   const { id } = useParams(); // id of the cocktail
-  const { data } = useData();
+  const { data } = useData(
+    "http://localhost:3000/chaos-cocktail-club/cocktails.json"
+  );
 
   if (!data) {
     return (

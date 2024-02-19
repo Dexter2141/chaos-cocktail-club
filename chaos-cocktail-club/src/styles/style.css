@@ -1,3 +1,6 @@
+body {
+  overflow-x: hidden;
+}
 .cocktails {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -32,18 +35,20 @@
   content: "";
   position: absolute;
   top: 50%;
-  width: 60%;
+  width: 50%;
   height: 2px;
   background-color: #000; /* Adjust the color as needed */
 }
 
 .news-header::before {
-  left: 0;
+  left: 20%;
+  width: 20%;
   transform: translateX(-50%);
 }
 
 .news-header::after {
-  right: 0;
+  right: 20%;
+  width: 20%;
   transform: translateX(50%);
 }
 

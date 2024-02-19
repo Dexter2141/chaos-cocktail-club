@@ -17,12 +17,12 @@ function Home() {
       </div>
       <div className="card-detail">
         <div className="row row-cols-1 row-cols-md-1 g-4 custom-card">
-          <Card>
+          <Card className="p-0">
             <div className="row g-0">
               <div className="col-md-4">
                 <Card.Img
                   src={BarEquipment}
-                  className="rounded-start"
+                  className="img-fluid rounded-start"
                   alt="..."
                 />
               </div>
@@ -35,21 +35,16 @@ function Home() {
                     your cocktail masterpiece. Cheers to the fearless mixologist
                     within!
                   </Card.Text>
-                  <Card.Text>
-                    <small className="text-body-secondary">
-                      Last updated 3 mins ago
-                    </small>
-                  </Card.Text>
                 </Card.Body>
               </div>
             </div>
           </Card>
-          <Card>
+          <Card className="p-0">
             <div className="row g-0">
               <div className="col-md-4">
                 <Card.Img
                   src={CocktailOfMonth}
-                  className="rounded-start"
+                  className="img-fluid rounded-start"
                   alt="cocktail of the month"
                 />
               </div>
@@ -62,11 +57,6 @@ function Home() {
                     The Gin Basil Smash, nicknamed the "Green Hell," is an
                     exhilarating cocktail. With gin, lemon, and basil, it's a
                     herbal paradise in a glass. Taste the green!
-                  </Card.Text>
-                  <Card.Text>
-                    <small className="text-body-secondary">
-                      Last updated 3 mins ago
-                    </small>
                   </Card.Text>
                 </Card.Body>
               </div>

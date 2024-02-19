@@ -8,7 +8,7 @@ interface DataContextType {
 
 const DataContext = createContext<DataContextType | undefined>(undefined);
 
-export const useData = () => {
+export const useData = (jsonDataString?: string) => {
   const context = useContext(DataContext);
   if (context === undefined) {
     throw new Error("useData must be used within a DataContextProvider");
@@ -18,22 +18,24 @@ export const useData = () => {
 
 interface DataContextProviderProps {
   children: React.ReactNode; // Define children prop
+  jsonDataString?: string; // JSON string to be passed
 }
 
 export const DataContextProvider: React.FC<DataContextProviderProps> = ({
   children,
+  jsonDataString,
 }) => {
   const [data, setData] = useState<any>(null);
 
   const fetchData = async () => {
     try {
       // Fetch data from your JSON file or API
-      const response = await fetch("cocktails.json");
-      /*
+      //const response = await fetch("cocktails.json");
+
       const response = await fetch(
         "http://localhost:3000/chaos-cocktail-club/cocktails.json"
       );
-*/
+
       if (!response.ok) {
         throw new Error("Network response was not ok.");
       }

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "JackDanielsCola",
+    "name": "Jack Daniels Cola",
+    "description": "A classic mix of Jack Daniels whiskey and refreshing cola.",
+    "ingredients": [
+      { "name": "Jack Daniels Whiskey", "quantity": 60, "unit": "ml" },
+      { "name": "Cola", "quantity": 120, "unit": "ml" },
+      { "name": "Ice cubes", "quantity": "as needed", "unit": null },
+      { "name": "Lemon wedge", "quantity": 1, "unit": "piece" }
+    ],
+    "instructions": [
+      "Fill a highball glass with ice cubes.",
+      "Pour Jack Daniels whiskey over the ice.",
+      "Top up with cola and stir gently.",
+      "Garnish with a lemon wedge.",
+      "Serve and enjoy!"
+    ],
+    "category": "Classic",
+    "imagePath": "images/jack_daniels_cola.jpg"
+  },
+  {
+    "id": "GinTonic",
+    "name": "Gin Tonic",
+    "description": "A simple and refreshing cocktail featuring gin and tonic water.",
+    "ingredients": [
+      { "name": "Gin", "quantity": 60, "unit": "ml" },
+      { "name": "Tonic Water", "quantity": 120, "unit": "ml" },
+      { "name": "Ice cubes", "quantity": "as needed", "unit": null },
+      { "name": "Lime wedge", "quantity": 1, "unit": "piece" }
+    ],
+    "instructions": [
+      "Fill a highball glass with ice cubes.",
+      "Pour gin over the ice.",
+      "Top up with tonic water and stir gently.",
+      "Garnish with a lime wedge.",
+      "Serve and enjoy!"
+    ],
+    "category": "Classic",
+    "imagePath": "images/gin_tonic.jpg"
+  }
+]

@@ -9,6 +9,9 @@ import {
 } from "react-bootstrap";
 import BrandLogo from "../images/cocktail_logo.png";
 import { useState } from "react";
+import "../styles/style.css";
+
+export let searchQueryOut: string = "Search";
 
 function NavigationBar() {
   const [expanded, setExpanded] = useState(false);
@@ -17,11 +20,17 @@ function NavigationBar() {
     setExpanded(false); // Close the Navbar when a link is clicked
   };
 
+  const [searchQuery, setSearchQuery] = useState<string>("");
+  const handleSearch = () => {
+    searchQueryOut = searchQuery;
+    console.log(searchQueryOut);
+  };
+
   return (
     <Navbar
       bg="dark"
       expand="md"
-      className="sticky-top border-bottom border-body navbar-dark"
+      className="sticky-top border-bottom border-body navbar-dark z-index"
       expanded={expanded} // Control the collapse state
     >
       <Container>
@@ -47,34 +56,37 @@ function NavigationBar() {
             <Nav.Link href="#cocktails" onClick={handleNavItemClick}>
               Cocktails
             </Nav.Link>
+            <Nav.Link href="#longdrinks" onClick={handleNavItemClick}>
+              Longdrinks
+            </Nav.Link>
             <Nav.Link href="#about" onClick={handleNavItemClick}>
               About
             </Nav.Link>
             <NavDropdown title="Categories" id="basic-nav-dropdown">
               <NavDropdown.Item
-                href="#categories/new"
-                onClick={handleNavItemClick}
-              >
-                New
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                href="#categories/classic"
+                href="#categories/Classic"
                 onClick={handleNavItemClick}
               >
                 Classic
               </NavDropdown.Item>
               <NavDropdown.Item
-                href="#categories/fancy"
+                href="#categories/Modern"
                 onClick={handleNavItemClick}
               >
-                Fancy
+                Modern
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                href="#categories/Virgin"
+                onClick={handleNavItemClick}
+              >
+                Virgin
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item
-                href="#categories/oftheday"
+                href="#categories/ByChaosClub"
                 onClick={handleNavItemClick}
               >
-                Of the day
+                Created by ChaosClub
               </NavDropdown.Item>
             </NavDropdown>
             {/* Add more Nav.Link components as needed */}
@@ -86,8 +98,12 @@ function NavigationBar() {
               placeholder="Search"
               className="me-2 bg-light"
               aria-label="Search"
+              value={searchQuery}
+              onChange={(event) => setSearchQuery(event.target.value)}
             />
-            <Button variant="outline-light">Search</Button>
+            <Button variant="outline-light" onClick={handleSearch}>
+              Search
+            </Button>
           </Form>
         </Navbar.Collapse>
       </Container>

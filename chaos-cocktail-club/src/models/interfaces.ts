@@ -1,6 +1,6 @@
 export interface ICocktail {
   id?: string;
-  name?: string;
+  name: string;
   description?: string;
   ingredients?: IIngredient[];
   instructions?: string[];

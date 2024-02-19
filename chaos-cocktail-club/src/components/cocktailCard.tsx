@@ -4,7 +4,7 @@ import "../styles/style.css";
 
 function CocktailCard(cocktail: ICocktail) {
   return (
-    <Card style={{ width: "18 rem" }} className="card h-100">
+    <Card className="card h-100">
       <Card.Img
         variant="top"
         src={cocktail.imagePath}
